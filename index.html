@@ -24,7 +24,7 @@
             Out of Stock </span
           ><button
             @click="product.qty++"
-            class="bg-green-400 rounded  text-white px-2 ml-16"
+            class="bg-blue-400 rounded  text-white px-2 ml-16"
           >
             +</button
           ><button
@@ -43,12 +43,12 @@
       const app = new Vue({
         el: "#app",
         data: {
-          storeName: "TheStore",
+          storeName: "Vue Whole Foods",
           products: [
             {
               id: 0,
               name: "Apples",
-              qty: 5
+              qty: 0
             },
             {
               id: 1,
@@ -58,17 +58,17 @@
             {
               id: 2,
               name: "Tortillas",
-              qty: 10
+              qty: 0
             },
             {
               id: 3,
               name: "T-bone",
-              qty: 9
+              qty: 0
             },
             {
               id: 4,
               name: "Fajita",
-              qty: 2
+              qty: 0
             }
           ]
         },
